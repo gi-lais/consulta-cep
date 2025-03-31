@@ -25,13 +25,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ### 1️⃣ Clone o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+git clone https://github.com/gi-lais/consulta-cep.git
 ```
 
 ### 2️⃣ Acesse a pasta do projeto
 
 ```bash
-cd NOME_DO_REPOSITORIO
+cd consulta-cep
 ```
 
 ### 3️⃣ Instale as dependências
