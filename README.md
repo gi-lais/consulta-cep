@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 Projeto - Teste Front-end - Consulta CEP
 
-## Getting Started
+Um aplicativo web para consulta e salvamento de endereços com base no CEP! 🔍🏠
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- ⚛️ **[React](https://react.dev/)** - Biblioteca JavaScript para criar interfaces
+- 🌍 **[Next.js](https://nextjs.org/)** - Framework React para SSR e SSG
+- 💅 **[Material UI](https://mui.com/)** - Componentes estilizados prontos para React
+- 🔄 **[React Hook Form](https://react-hook-form.com/)** - Gerenciamento de formulários
+- 📦 **[React Query](https://tanstack.com/query/latest)** - Gerenciamento de requisições assíncronas
+
+## ✨ Funcionalidades
+
+✅ Consulta endereços a partir do CEP digitado
+✅ Preenchimento automático dos campos do formulário
+✅ Validação de CEP (somente números e limite de 8 dígitos)
+✅ Armazena endereços em um arquivo JSON local
+✅ Interface moderna e responsiva
+
+## 🛠️ Como Rodar o Projeto
+
+### 1️⃣ Clone o repositório
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Acesse a pasta do projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd NOME_DO_REPOSITORIO
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3️⃣ Instale as dependências
 
-## Learn More
+```bash
+npm install  # ou yarn install # ou pnpm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 4️⃣ Execute o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run dev  # ou yarn dev # ou pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O projeto estará rodando em **http://localhost:3000** 🚀
 
-## Deploy on Vercel
+## 📷 Capturas de Tela
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> ![Tela inicial](image.png) > ![Digitando um CEP e preenchimento dos campos automaticos](image-1.png) > ![Botão de Salvar habilitado](image-2.png) > ![Mensagem de sucesso após salvamento](image-3.png) > ![Mensagem de erro](image-4.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feito com ❤️ por [Giovanna Laís](https://github.com/gi-lais) 🚀
